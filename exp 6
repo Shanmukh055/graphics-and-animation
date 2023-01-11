@@ -1,3 +1,4 @@
+# To draw a connected group of line segments with RED colour from first vertex to last # 
 #include<GL/glu.h>
 #include<GL/glut.h>
 void MyInit()
