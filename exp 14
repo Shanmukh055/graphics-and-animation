@@ -6,15 +6,7 @@ void init()
 {
 glClear(GL_COLOR_BUFFER_BIT);
 glClearColor(0,1,0,1);
-glColor3f(1,0,0);#include<GL/glut.h>
-#include<GL/glu.h>
-#include<GL/gl.h>
-double parr[8];
-void init()
-{
-glClear(GL_COLOR_BUFFER_BIT);
-glClearColor(0,1,0,1);
-glColor3f(1,0,0);
+glColor3f(1,0,0); 
 gluOrtho2D(-500,500,-500,500); 
 
 parr[0] = 10;
